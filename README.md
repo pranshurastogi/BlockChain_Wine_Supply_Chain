@@ -58,7 +58,7 @@ BottleConsumed - 0x3e63d11b32ed0bacccc948704a5b1297f094e475a2324de4fa29d6e1d7208
 Ganache CLI Deployment
 
 truffle deploy --network development_cli
-
+```
 Compiling your contracts...
 ===========================
 > Everything is up to date, there is nothing to compile.
@@ -123,10 +123,10 @@ Summary
 =======
 > Total deployments:   2
 > Final cost:          0.10330836 ETH
-
+```
 
 ## Rinkeby deployment
-
+```
 truffle migrate --network rinkeby
 
 Compiling your contracts...
@@ -251,7 +251,7 @@ Summary
 =======
 > Total deployments:   2
 > Final cost:          0.10330836 ETH
-
+```
 ## Libraries and Framework
 
 
