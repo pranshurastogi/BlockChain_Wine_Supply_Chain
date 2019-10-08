@@ -10,3 +10,6 @@ https://drive.google.com/file/d/1Odtnnf6p8HwZu7WEpwoBLDuXBIzBwGrn/view?usp=shari
 2. Sequence Diagram
 3. State Diagram
 4. Class Diagram
+
+
+![Activity Diagram](./images/Activity_Diagram (1).png)
