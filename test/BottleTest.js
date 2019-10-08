@@ -1,3 +1,4 @@
+// Test for Bottle
 const Wine = artifacts.require('Wine');
 
 contract("", async function(accounts){

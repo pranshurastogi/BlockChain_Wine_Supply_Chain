@@ -43,7 +43,7 @@ contract Wine {
     enum BottleState {Owned, ForSale, Sold, Shipped, Consumed}
     struct BottleOfWine {
         uint upc; // universal product code of the Bottle - the primary key
-        uint sku; // stock keeping id - I have no idea, why do we have it, if contract does not use it
+        uint sku; // stock keeping id - I have no idea, why do we have it, if contract does not use it . Boiler code
         uint productId; // product id is upc + sku - again, I have no idea, why do we have it, if contract does not use it
         WineGrape grape;
         uint price;

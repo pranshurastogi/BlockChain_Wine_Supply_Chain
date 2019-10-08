@@ -9,16 +9,8 @@
   "scripts": {
     "test": "truffle test"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/yuryprokashev/wine-supply-chain.git"
-  },
-  "author": "Yury Prokashev",
+  "author": "Pranshu Rastogi",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/yuryprokashev/wine-supply-chain/issues"
-  },
-  "homepage": "https://github.com/yuryprokashev/wine-supply-chain#readme",
   "dependencies": {
     "express": "^4.16.4",
     "truffle-hdwallet-provider": "^1.0.5"
