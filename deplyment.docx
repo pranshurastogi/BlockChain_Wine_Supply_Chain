@@ -1,0 +1,199 @@
+Ganache CLI Deployment
+
+truffle deploy --network development_cli
+
+Compiling your contracts...
+===========================
+> Everything is up to date, there is nothing to compile.
+
+
+Starting migrations...
+======================
+> Network name:    'development_cli'
+> Network id:      1570380071585
+> Block gas limit: 0x6691b7
+
+
+1_initial_migration.js
+======================
+
+   Deploying 'Migrations'
+   ----------------------
+   > transaction hash:    0xb3e701c5f452a41a3484bd848c50006e20b3ed640ef9b24e68c097aae7d1f668
+   > Blocks: 0            Seconds: 0
+   > contract address:    0x6B27dcb4241DfEE654aE81DD903fe900EF64Ab0B
+   > block number:        1
+   > block timestamp:     1570380165
+   > account:             0x4d4E8DF293475E4a2a78Fa4b9D7004b628381047
+   > balance:             99.99430312
+   > gas used:            284844
+   > gas price:           20 gwei
+   > value sent:          0 ETH
+   > total cost:          0.00569688 ETH
+
+
+   > Saving migration to chain.
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:          0.00569688 ETH
+
+
+2_wine_supply_chain.js
+======================
+
+   Deploying 'Wine'
+   ----------------
+   > transaction hash:    0x4c37f4c67e56a07fb3615e62463da915f2af481cd09eb4f54f990921829463a1
+   > Blocks: 0            Seconds: 0
+   > contract address:    0xD59b6C2463670F5D7cE3f95Ec21B0Ef02cCfc69B
+   > block number:        3
+   > block timestamp:     1570380165
+   > account:             0x4d4E8DF293475E4a2a78Fa4b9D7004b628381047
+   > balance:             99.89585096
+   > gas used:            4880574
+   > gas price:           20 gwei
+   > value sent:          0 ETH
+   > total cost:          0.09761148 ETH
+
+
+   > Saving migration to chain.
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:          0.09761148 ETH
+
+
+Summary
+=======
+> Total deployments:   2
+> Final cost:          0.10330836 ETH
+
+
+
+Rinkeby Deployment Details
+
+
+pranshu@pranshu:~/Documents/Udacity-wine-supply-project/wine-supply-chain$ truffle migrate --network rinkeby
+
+Compiling your contracts...
+===========================
+> Compiling ./contracts/Migrations.sol
+> Compiling ./contracts/accesscontrol/Roles.sol
+> Compiling ./contracts/accesscontrol/wine/BottleBuyer.sol
+> Compiling ./contracts/accesscontrol/wine/BottleOwner.sol
+> Compiling ./contracts/accesscontrol/wine/GrapeOwner.sol
+> Compiling ./contracts/core/Ownable.sol
+> Compiling ./contracts/winebase/Wine.sol
+> Artifacts written to /home/pranshu/Documents/Udacity-wine-supply-project/wine-supply-chain/build/contracts
+> Compiled successfully using:
+   - solc: 0.5.0+commit.1d4f565a.Emscripten.clang
+
+
+Migrations dry-run (simulation)
+===============================
+> Network name:    'rinkeby-fork'
+> Network id:      4
+> Block gas limit: 0x6ac8d8
+
+
+1_initial_migration.js
+======================
+
+   Deploying 'Migrations'
+   ----------------------
+   > block number:        5226814
+   > block timestamp:     1570541225
+   > account:             0x4d4E8DF293475E4a2a78Fa4b9D7004b628381047
+   > balance:             2.999460312
+   > gas used:            269844
+   > gas price:           2 gwei
+   > value sent:          0 ETH
+   > total cost:          0.000539688 ETH
+
+   -------------------------------------
+   > Total cost:         0.000539688 ETH
+
+
+2_wine_supply_chain.js
+======================
+
+   Deploying 'Wine'
+   ----------------
+   > block number:        5226816
+   > block timestamp:     1570541250
+   > account:             0x4d4E8DF293475E4a2a78Fa4b9D7004b628381047
+   > balance:             2.989765096
+   > gas used:            4820574
+   > gas price:           2 gwei
+   > value sent:          0 ETH
+   > total cost:          0.009641148 ETH
+
+   -------------------------------------
+   > Total cost:         0.009641148 ETH
+
+
+Summary
+=======
+> Total deployments:   2
+> Final cost:          0.010180836 ETH
+
+
+Starting migrations...
+======================
+> Network name:    'rinkeby'
+> Network id:      4
+> Block gas limit: 0x6acfc0
+
+
+1_initial_migration.js
+======================
+
+   Deploying 'Migrations'
+   ----------------------
+   > transaction hash:    0xb3e701c5f452a41a3484bd848c50006e20b3ed640ef9b24e68c097aae7d1f668
+   > Blocks: 2            Seconds: 28
+   > contract address:    0x6B27dcb4241DfEE654aE81DD903fe900EF64Ab0B
+   > block number:        5226818
+   > block timestamp:     1570541291
+   > account:             0x4d4E8DF293475E4a2a78Fa4b9D7004b628381047
+   > balance:             2.99430312
+   > gas used:            284844
+   > gas price:           20 gwei
+   > value sent:          0 ETH
+   > total cost:          0.00569688 ETH
+
+
+   > Saving migration to chain.
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:          0.00569688 ETH
+
+
+2_wine_supply_chain.js
+======================
+
+   Deploying 'Wine'
+   ----------------
+   > transaction hash:    0x4c37f4c67e56a07fb3615e62463da915f2af481cd09eb4f54f990921829463a1
+   > Blocks: 1            Seconds: 17
+   > contract address:    0xD59b6C2463670F5D7cE3f95Ec21B0Ef02cCfc69B
+   > block number:        5226822
+   > block timestamp:     1570541351
+   > account:             0x4d4E8DF293475E4a2a78Fa4b9D7004b628381047
+   > balance:             2.89585096
+   > gas used:            4880574
+   > gas price:           20 gwei
+   > value sent:          0 ETH
+   > total cost:          0.09761148 ETH
+
+
+   > Saving migration to chain.
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:          0.09761148 ETH
+
+
+Summary
+=======
+> Total deployments:   2
+> Final cost:          0.10330836 ETH
+
