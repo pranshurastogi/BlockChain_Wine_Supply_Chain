@@ -4,6 +4,7 @@ const userSchema = mongoose.Schema({
     name: String,
     emailId: { type: String, unique: true },
     password: String,
+    blockchainAddress: String,
     role: String,
     createdAt: { type: Date, default: Date.now },
     updatedAt: { type: Date, default: Date.now }
